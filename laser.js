@@ -1,5 +1,5 @@
 function Laser(spos, angle) {
-this.pos = triangle(spos.x1, spos.y1, spos.x2, spos.y2, spos.x3, spos.y3) ;
+this.pos = createVector(spos.x, spos.y) ;
 this.vel = p5.Vector.fromAngle(angle);
 this.vel.mult(10); //Kode som bestemmer hvor hurtig laser skudene bevæger sig 
 
