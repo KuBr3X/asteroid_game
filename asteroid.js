@@ -26,6 +26,7 @@ function Asteroid(pos, r) { //Koden nedenunder skaber asteroiderne
     this.render = function () {
         push ();
         fill(color = "grey"); //Farven til asteroiderne
+        noStroke(0)
         translate(this.pos.x, this.pos.y);
         
       
