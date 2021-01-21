@@ -45,7 +45,7 @@ function Ship() {
         triangle(-this.r, this.r, this.r, this.r, 0, -this.r); 
                     //Boost farve animation
         strokeWeight(1);
-        stroke(255);
+        stroke(color = "lightblue");
         fill (color = "blue")  
         triangle(-this.r, this.r, this.r, this.r, 0, this.r*2);
         noStroke(0);
