@@ -74,16 +74,19 @@ function keyReleased (){
  }
           //Koder til hvilke taster der skal bruges til laser og movements
 function keyPressed () {
-    if (keyCode == 32){
+    if (keyCode == 32){ //Tasten "Space"
         lasers.push(new Laser(ship.pos, ship.heading));
     }  
-    if (keyCode == 68) {
+    if (keyCode == 68) { //Tasten "D"
         isRight = true
     }
-    if (keyCode == 65) {
+    if (keyCode == 65) { //Tasten "A"
         isLeft = true
     }
-    if (keyCode == 87) {
+    if (keyCode == 87) { //Tasten "W"
         isUp = true
+    }
+    if (keyCode == 82) { //Tasten "R"
+        window.location.reload(); //Reload af hjemmesiden
     }
 }
