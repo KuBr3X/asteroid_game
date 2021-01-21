@@ -56,7 +56,7 @@ function draw(){
         ship.edges();
         ship.movement();
 }  
-
+          //Koder til når man giver slip fra movement tasterne at den så skal stoppe op.
 function keyReleased (){
     ship.setRotation (0);
     ship.boosting(false);
@@ -72,7 +72,7 @@ function keyReleased (){
     }
 
  }
-          //Koder til hvilke taster der skal bruges til laser og movement
+          //Koder til hvilke taster der skal bruges til laser og movements
 function keyPressed () {
     if (keyCode == 32){
         lasers.push(new Laser(ship.pos, ship.heading));

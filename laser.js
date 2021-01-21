@@ -8,7 +8,7 @@ this.update = function(){
 }
 this.render = function(){
     push();
-    stroke(color = "yellow"); //En bestemt farve til skudene bliver anvendt
+    stroke(color = "yellow"); //En bestemt farve til skudene bliver anvendt her
     strokeWeight(4);
     point(this.pos.x, this.pos.y);
     pop();

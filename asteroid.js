@@ -7,7 +7,7 @@ function Asteroid(pos, r) { //Koden nedenunder skaber asteroiderne
     if (r) {
     this.r = r*0.5;
     } else {
-        this.r = random(25,50); //Koden der bestemmer hvor store asteroiderne bliver 
+        this.r = random(25,50); //Koden der bestemmer hvor store asteroiderne bliver
     }
 
 

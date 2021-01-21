@@ -52,7 +52,7 @@ function Ship() {
         noStroke();
         fill (color = "blue")  
         triangle(-this.r, this.r, this.r, this.r, 0, this.r*1.25);
-            } else  //"else" til når boost ikke bliver brugt, så slår den fra
+            } else  //"else" til når boost ikke bliver brugt, så slår den fra.
                 {
         push ();
         translate(this.pos.x, this.pos.y);
