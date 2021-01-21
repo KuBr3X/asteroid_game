@@ -39,8 +39,9 @@ function Ship() {
         push ();
         translate(this.pos.x, this.pos.y);
         rotate(this.heading + PI/2);
-        fill(0);
-        stroke(255);
+        fill(255);
+        strokeWeight(5);
+        stroke(color = "green");
         triangle(-this.r, this.r, this.r, this.r, 0, -this.r); 
                     //Boost farve animation
         stroke(255);
@@ -58,6 +59,7 @@ function Ship() {
         translate(this.pos.x, this.pos.y);
         rotate(this.heading + PI/2);
         fill(255);
+        strokeWeight(5);
         stroke(color = "green");
         triangle(-this.r, this.r, this.r, this.r, 0, -this.r); 
         }
